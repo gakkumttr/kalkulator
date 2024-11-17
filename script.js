@@ -18,5 +18,5 @@ document.getElementById('brakingForm').addEventListener('submit', function(event
     }
 
     const result = Math.sqrt(brakingDistance  * 2 * coefficient  )* 3.6 .toFixed(2);
-    resultElement.textContent = `Hasil: ${result} km/jam`;
+    resultElement.textContent = `Kisaran Kecepatan Minimal: ${result} km/jam`;
 });
